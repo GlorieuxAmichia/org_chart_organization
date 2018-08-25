@@ -5,7 +5,7 @@
 	'summary': """Dinamic display of your Departement Organization""",
 	'description': """Dinamic display of your Departement Organization""",
 	'author': "SLife Organization, Odoo Community Association (OCA)",
-	'category': 'web',
+	'category': 'Human Resources',
 	'version': '1.0',
 	'license': 'AGPL-3',
 	'depends': ['hr'],
