@@ -2,7 +2,7 @@
 <odoo>
   <record id="action_org_chart_department" model="ir.actions.client">
       <field name="name">Department Chart</field>
-      <field name="tag">org_chart_department.org_chart_department</field>
+      <field name="tag">org_chart_organization.org_chart_department</field>
   </record>
 
   <menuitem id="menu_org_chart_department"
@@ -13,10 +13,9 @@
 
     <template id="assets_backend" name="Org Chart Department assets" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
-          <script src="/org_chart_department/static/js/org_chart_department.js"></script>
-          <script src="/org_chart_department/static/js/diagram.js"></script>
-          <script src="/org_chart_department/static/js/data.js"></script>
-          <link href="/org_chart_department/static/src/css/diagram.css" rel="stylesheet" />
+          <script src="/org_chart_organization/static/js/org_chart_department.js"></script>
+          <script src="/org_chart_organization/static/js/diagram.js"></script>
+          <link href="/org_chart_organization/static/src/css/diagram.css" rel="stylesheet" />
       </xpath>
     </template>
 </odoo>

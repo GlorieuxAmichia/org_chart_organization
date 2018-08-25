@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-  <t t-name="org_chart_department.org_chart_template">
+  <t t-name="org_chart_organization.org_chart_template">
     <div id="diagram_container" style="overflow-x:scroll ; overflow-y: scroll; padding-bottom:10px;"></div>
     <script type="text/javascript">
       var diagram = new dhx.Diagram("diagram_container", { type: "org" });
