@@ -9,7 +9,7 @@ class OrgChartDepartment(models.Model):
 	@api.model
 	def get_department_data(self):
 		data = {
-			'name': 'My Company',
+			'name': self.env.user.company_id.name,
 			'title': '',
 			'children': [],
 		}
