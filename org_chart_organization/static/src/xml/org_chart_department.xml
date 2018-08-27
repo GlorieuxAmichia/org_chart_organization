@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
   <t t-name="org_chart_organization.org_chart_template">
-    <div id="diagram_container" style="overflow-x:scroll ; overflow-y: scroll; padding-bottom:10px;"></div>
+    <div id="chart-container" style="overflow-x:scroll ; overflow-y: scroll;"></div>
     <script type="text/javascript">
-      var diagram = new dhx.Diagram("diagram_container", { type: "org" });
-      diagram.data.parse(department_data.values);
-      $('#diagram_container').width($('.o_content').width()).height($('.o_content').height());
+      $(function() {
+        <!-- Get Department Data -->
+        var datascource = department_data.values;
+
+        $('#chart-container').orgchart({
+          'data' : datascource,
+          'nodeContent': 'title'
+        });
+
+      });
     </script>
   </t>
 </templates>

@@ -14,8 +14,9 @@
     <template id="assets_backend" name="Org Chart Department assets" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
           <script src="/org_chart_organization/static/js/org_chart_department.js"></script>
-          <script src="/org_chart_organization/static/js/diagram.js"></script>
-          <link href="/org_chart_organization/static/src/css/diagram.css" rel="stylesheet" />
+          <script src="/org_chart_organization/static/js/jquery_orgchart.js"></script>
+          <link href="/org_chart_organization/static/src/css/jquery_orgchart.css" rel="stylesheet" />
+          <link href="/org_chart_organization/static/src/css/style.css" rel="stylesheet" />
       </xpath>
     </template>
 </odoo>
