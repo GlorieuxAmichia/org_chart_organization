@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
 	'name': "Org Chart Organization",
-	'summary': """Dynamic display of your Departement Organization""",
-	'description': """Dynamic display of your Departement Organization""",
+	'summary': """Dynamic display of your Department Organization""",
+	'description': """Dynamic display of your Department Organization""",
 	'author': "SLife Organization, Odoo Community Association (OCA)",
 	'category': 'Human Resources',
 	'version': '2.0',
