@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-	'name': "Org Chart Organization",
+	'name': "Organization Chart Department",
 	'summary': """Dynamic display of your Department Organization""",
 	'description': """Dynamic display of your Department Organization""",
 	'author': "SLife Organization, Odoo Community Association (OCA)",
