@@ -3,7 +3,7 @@
 	'name': "Organization Chart Department",
 	'summary': """Dynamic display of your Department Organization""",
 	'description': """Dynamic display of your Department Organization""",
-	'author': "SLife Organization, Odoo Community Association (OCA)",
+	'author': "SLife Organization",
 	'category': 'Human Resources',
 	'version': '2.0',
 	'license': 'AGPL-3',
