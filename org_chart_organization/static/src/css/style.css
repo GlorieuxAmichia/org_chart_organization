@@ -13,8 +13,8 @@ body {
 #chart-container {
   position: absolute;
   display: inline-block;
-  overflow: auto;
   text-align: center;
+  height: 100%;
 }
 
 .orgchart td.left, .orgchart td.right, .orgchart td.top { border-color: #aaa; }
