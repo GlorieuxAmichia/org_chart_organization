@@ -3,7 +3,7 @@
 	'name': "Organization Chart Department",
 	'summary': """Dynamic display of your Department Organization""",
 	'description': """Dynamic display of your Department Organization""",
-	'author': "SLife Organization",
+	'author': "SLife Organization, Amichia Fréjus Arnaud AKA",
 	'category': 'Human Resources',
 	'version': '2.0',
 	'license': 'AGPL-3',
